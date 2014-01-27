@@ -77,7 +77,7 @@ $xml->close('users');
 will result in:
 
 ```
-<?xml version="1.0" encoding="utf=8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <users type="meta">
 <user>
     <name><![CDATA[Sasha]]></name>
