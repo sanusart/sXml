@@ -14,13 +14,14 @@ class sXml {
      */
     function __construct($safe=false) {
         $this->safe = $safe;
+        header('Content-type: application/xml');
     }
 
     /**
      * @param string $version
      * @param string $encoding
      */
-    public function doctype($version='1.0',$encoding='utf=8') {
+    public function doctype($version='1.0',$encoding='utf-8') {
         echo '<?xml version="' . $version . '" encoding="' . $encoding . '"?>' . $this->br;
     }
 
