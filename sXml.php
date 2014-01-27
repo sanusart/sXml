@@ -25,7 +25,7 @@ class sXml {
     }
 
     /**
-     * @param $tag
+     * @param string $tag
      * @param array $attr
      */
     public function open($tag,$attr=array()) {
@@ -41,15 +41,15 @@ class sXml {
 	}
 
     /**
-     * @param $tag
+     * @param string $tag
      */
     public function close($tag) {
 		echo '</' . $tag . '>' . $this->br;
 	}
 
     /**
-     * @param $tag
-     * @param $value
+     * @param string $tag
+     * @param mixed $value | null
      * @param array $attr
      */
     public function node($tag,$value,$attr=array()) {
@@ -69,7 +69,7 @@ class sXml {
     }
 
     /**
-     * @param $string
+     * @param string $string
      * @return string
      */
     private function _safe($string) {
