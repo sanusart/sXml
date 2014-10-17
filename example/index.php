@@ -1,5 +1,5 @@
 <?php
-include_once '../Sxml.php';
+include_once '../src/Sxml.php';
 
 $xml = new \Sanusart\sXml\Xml(true);
 
