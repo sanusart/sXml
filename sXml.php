@@ -3,7 +3,8 @@
 /**
  * Class sXml
  */
-class sXml {
+namespace Sanusart\sXml;
+class Xml {
 
     private $br = "\r\n";
     private $tab = "\t";
