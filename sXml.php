@@ -3,6 +3,7 @@
 /**
  * Class sXml
  */
+namespace sanusart;
 class sXml {
 
     private $br = "\r\n";
