@@ -1,7 +1,7 @@
 <?php
-include_once '../src/Sxml.php';
 
-$xml = new \Sanusart\sXml\Xml(true);
+include_once '../src/Sxml.php';
+$xml = new \sanusart\sxml\sxml(true);
 
 $xml->doctype();
 $xml->open('users', array('requered' => 'true', 'type' => 'meta'));
